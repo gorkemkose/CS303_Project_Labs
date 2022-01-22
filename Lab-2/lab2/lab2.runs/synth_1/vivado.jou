@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2018.2 (64-bit)
+# SW Build 2258646 on Thu Jun 14 20:03:12 MDT 2018
+# IP Build 2256618 on Thu Jun 14 22:10:49 MDT 2018
+# Start of session at: Wed Nov 17 14:53:51 2021
+# Process ID: 21248
+# Current directory: C:/Users/pc/Downloads/lab2/lab2.runs/synth_1
+# Command line: vivado.exe -log comparator.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source comparator.tcl
+# Log file: C:/Users/pc/Downloads/lab2/lab2.runs/synth_1/comparator.vds
+# Journal file: C:/Users/pc/Downloads/lab2/lab2.runs/synth_1\vivado.jou
+#-----------------------------------------------------------
+source comparator.tcl -notrace

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="comparator_sim_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="comparator_sim" />
+            <top_module name="glbl" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="0fs"></ZoomStartTime>
+      <ZoomEndTime time="338129497fs"></ZoomEndTime>
+      <Cursor1Time time="374101000fs"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="175"></NameColumnWidth>
+      <ValueColumnWidth column_width="142"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="7" />
+   <wvobject fp_name="/comparator_sim/X1" type="logic">
+      <obj_property name="ElementShortName">X1</obj_property>
+      <obj_property name="ObjectShortName">X1</obj_property>
+   </wvobject>
+   <wvobject fp_name="/comparator_sim/X0" type="logic">
+      <obj_property name="ElementShortName">X0</obj_property>
+      <obj_property name="ObjectShortName">X0</obj_property>
+   </wvobject>
+   <wvobject fp_name="/comparator_sim/Y1" type="logic">
+      <obj_property name="ElementShortName">Y1</obj_property>
+      <obj_property name="ObjectShortName">Y1</obj_property>
+   </wvobject>
+   <wvobject fp_name="/comparator_sim/Y0" type="logic">
+      <obj_property name="ElementShortName">Y0</obj_property>
+      <obj_property name="ObjectShortName">Y0</obj_property>
+   </wvobject>
+   <wvobject fp_name="/comparator_sim/EQ" type="logic">
+      <obj_property name="ElementShortName">EQ</obj_property>
+      <obj_property name="ObjectShortName">EQ</obj_property>
+   </wvobject>
+   <wvobject fp_name="/comparator_sim/LT" type="logic">
+      <obj_property name="ElementShortName">LT</obj_property>
+      <obj_property name="ObjectShortName">LT</obj_property>
+   </wvobject>
+   <wvobject fp_name="/comparator_sim/GT" type="logic">
+      <obj_property name="ElementShortName">GT</obj_property>
+      <obj_property name="ObjectShortName">GT</obj_property>
+   </wvobject>
+</wave_config>

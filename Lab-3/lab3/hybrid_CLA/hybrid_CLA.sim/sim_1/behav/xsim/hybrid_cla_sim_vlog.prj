@@ -1,0 +1,11 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  \
+"../../../../hybrid_CLA.srcs/sources_1/new/cla_4bit.v" \
+"../../../../hybrid_CLA.srcs/sources_1/new/hybrid_16bit.v" \
+"../../../../hybrid_CLA.srcs/sim_1/new/hybrid_cla_sim.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

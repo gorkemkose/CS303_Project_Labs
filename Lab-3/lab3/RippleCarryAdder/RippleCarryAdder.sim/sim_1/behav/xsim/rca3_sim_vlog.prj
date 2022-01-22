@@ -1,0 +1,12 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  \
+"../../../../RippleCarryAdder.srcs/sources_1/new/full_adder.v" \
+"../../../../RippleCarryAdder.srcs/sources_1/new/ripple4bit.v" \
+"../../../../RippleCarryAdder.srcs/sources_1/new/ripple_carry_adder.v" \
+"../../../../RippleCarryAdder.srcs/sim_1/new/rca3_sim.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

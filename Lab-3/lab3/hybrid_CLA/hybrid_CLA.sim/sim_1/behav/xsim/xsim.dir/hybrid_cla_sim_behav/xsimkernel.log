@@ -1,0 +1,7 @@
+Running: xsim.dir/hybrid_cla_sim_behav/xsimk.exe -simmode gui -wdb hybrid_cla_sim_behav.wdb -simrunnum 0 -socket 27182
+Design successfully loaded
+Design Loading Memory Usage: 5292 KB (Peak: 5292 KB)
+Design Loading CPU Usage: 61 ms
+Simulation completed
+Simulation Memory Usage: 5928 KB (Peak: 5928 KB)
+Simulation CPU Usage: 77 ms

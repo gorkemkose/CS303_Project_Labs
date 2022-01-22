@@ -1,0 +1,7 @@
+Running: xsim.dir/rca3_sim_behav/xsimk.exe -simmode gui -wdb rca3_sim_behav.wdb -simrunnum 0 -socket 26803
+Design successfully loaded
+Design Loading Memory Usage: 5236 KB (Peak: 5236 KB)
+Design Loading CPU Usage: 61 ms
+Simulation completed
+Simulation Memory Usage: 5860 KB (Peak: 5860 KB)
+Simulation CPU Usage: 77 ms

@@ -1,0 +1,244 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="rca3_sim_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="glbl" />
+            <top_module name="rca3_sim" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="2040666fs"></ZoomStartTime>
+      <ZoomEndTime time="1002040667fs"></ZoomEndTime>
+      <Cursor1Time time="534013000fs"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="175"></NameColumnWidth>
+      <ValueColumnWidth column_width="134"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="5" />
+   <wvobject fp_name="/rca3_sim/SUB" type="logic">
+      <obj_property name="ElementShortName">SUB</obj_property>
+      <obj_property name="ObjectShortName">SUB</obj_property>
+   </wvobject>
+   <wvobject fp_name="vbus590" type="vbus">
+      <obj_property name="label">A</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+      <obj_property name="CustomSignalColor">#FF00FF</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <wvobject fp_name="/rca3_sim/A15" type="logic">
+         <obj_property name="ElementShortName">A15</obj_property>
+         <obj_property name="ObjectShortName">A15</obj_property>
+      </wvobject>
+      <wvobject fp_name="/rca3_sim/A14" type="logic">
+         <obj_property name="ElementShortName">A14</obj_property>
+         <obj_property name="ObjectShortName">A14</obj_property>
+      </wvobject>
+      <wvobject fp_name="/rca3_sim/A13" type="logic">
+         <obj_property name="ElementShortName">A13</obj_property>
+         <obj_property name="ObjectShortName">A13</obj_property>
+      </wvobject>
+      <wvobject fp_name="/rca3_sim/A12" type="logic">
+         <obj_property name="ElementShortName">A12</obj_property>
+         <obj_property name="ObjectShortName">A12</obj_property>
+      </wvobject>
+      <wvobject fp_name="/rca3_sim/A11" type="logic">
+         <obj_property name="ElementShortName">A11</obj_property>
+         <obj_property name="ObjectShortName">A11</obj_property>
+      </wvobject>
+      <wvobject fp_name="/rca3_sim/A10" type="logic">
+         <obj_property name="ElementShortName">A10</obj_property>
+         <obj_property name="ObjectShortName">A10</obj_property>
+      </wvobject>
+      <wvobject fp_name="/rca3_sim/A9" type="logic">
+         <obj_property name="ElementShortName">A9</obj_property>
+         <obj_property name="ObjectShortName">A9</obj_property>
+      </wvobject>
+      <wvobject fp_name="/rca3_sim/A8" type="logic">
+         <obj_property name="ElementShortName">A8</obj_property>
+         <obj_property name="ObjectShortName">A8</obj_property>
+      </wvobject>
+      <wvobject fp_name="/rca3_sim/A7" type="logic">
+         <obj_property name="ElementShortName">A7</obj_property>
+         <obj_property name="ObjectShortName">A7</obj_property>
+      </wvobject>
+      <wvobject fp_name="/rca3_sim/A6" type="logic">
+         <obj_property name="ElementShortName">A6</obj_property>
+         <obj_property name="ObjectShortName">A6</obj_property>
+      </wvobject>
+      <wvobject fp_name="/rca3_sim/A5" type="logic">
+         <obj_property name="ElementShortName">A5</obj_property>
+         <obj_property name="ObjectShortName">A5</obj_property>
+      </wvobject>
+      <wvobject fp_name="/rca3_sim/A4" type="logic">
+         <obj_property name="ElementShortName">A4</obj_property>
+         <obj_property name="ObjectShortName">A4</obj_property>
+      </wvobject>
+      <wvobject fp_name="/rca3_sim/A3" type="logic">
+         <obj_property name="ElementShortName">A3</obj_property>
+         <obj_property name="ObjectShortName">A3</obj_property>
+      </wvobject>
+      <wvobject fp_name="/rca3_sim/A2" type="logic">
+         <obj_property name="ElementShortName">A2</obj_property>
+         <obj_property name="ObjectShortName">A2</obj_property>
+      </wvobject>
+      <wvobject fp_name="/rca3_sim/A1" type="logic">
+         <obj_property name="ElementShortName">A1</obj_property>
+         <obj_property name="ObjectShortName">A1</obj_property>
+      </wvobject>
+      <wvobject fp_name="/rca3_sim/A0" type="logic">
+         <obj_property name="ElementShortName">A0</obj_property>
+         <obj_property name="ObjectShortName">A0</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="vbus591" type="vbus">
+      <obj_property name="label">B</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+      <obj_property name="CustomSignalColor">#00FFFF</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <wvobject fp_name="/rca3_sim/B15" type="logic">
+         <obj_property name="ElementShortName">B15</obj_property>
+         <obj_property name="ObjectShortName">B15</obj_property>
+      </wvobject>
+      <wvobject fp_name="/rca3_sim/B14" type="logic">
+         <obj_property name="ElementShortName">B14</obj_property>
+         <obj_property name="ObjectShortName">B14</obj_property>
+      </wvobject>
+      <wvobject fp_name="/rca3_sim/B13" type="logic">
+         <obj_property name="ElementShortName">B13</obj_property>
+         <obj_property name="ObjectShortName">B13</obj_property>
+      </wvobject>
+      <wvobject fp_name="/rca3_sim/B12" type="logic">
+         <obj_property name="ElementShortName">B12</obj_property>
+         <obj_property name="ObjectShortName">B12</obj_property>
+      </wvobject>
+      <wvobject fp_name="/rca3_sim/B11" type="logic">
+         <obj_property name="ElementShortName">B11</obj_property>
+         <obj_property name="ObjectShortName">B11</obj_property>
+      </wvobject>
+      <wvobject fp_name="/rca3_sim/B10" type="logic">
+         <obj_property name="ElementShortName">B10</obj_property>
+         <obj_property name="ObjectShortName">B10</obj_property>
+      </wvobject>
+      <wvobject fp_name="/rca3_sim/B9" type="logic">
+         <obj_property name="ElementShortName">B9</obj_property>
+         <obj_property name="ObjectShortName">B9</obj_property>
+      </wvobject>
+      <wvobject fp_name="/rca3_sim/B8" type="logic">
+         <obj_property name="ElementShortName">B8</obj_property>
+         <obj_property name="ObjectShortName">B8</obj_property>
+      </wvobject>
+      <wvobject fp_name="/rca3_sim/B7" type="logic">
+         <obj_property name="ElementShortName">B7</obj_property>
+         <obj_property name="ObjectShortName">B7</obj_property>
+      </wvobject>
+      <wvobject fp_name="/rca3_sim/B6" type="logic">
+         <obj_property name="ElementShortName">B6</obj_property>
+         <obj_property name="ObjectShortName">B6</obj_property>
+      </wvobject>
+      <wvobject fp_name="/rca3_sim/B5" type="logic">
+         <obj_property name="ElementShortName">B5</obj_property>
+         <obj_property name="ObjectShortName">B5</obj_property>
+      </wvobject>
+      <wvobject fp_name="/rca3_sim/B4" type="logic">
+         <obj_property name="ElementShortName">B4</obj_property>
+         <obj_property name="ObjectShortName">B4</obj_property>
+      </wvobject>
+      <wvobject fp_name="/rca3_sim/B3" type="logic">
+         <obj_property name="ElementShortName">B3</obj_property>
+         <obj_property name="ObjectShortName">B3</obj_property>
+      </wvobject>
+      <wvobject fp_name="/rca3_sim/B2" type="logic">
+         <obj_property name="ElementShortName">B2</obj_property>
+         <obj_property name="ObjectShortName">B2</obj_property>
+      </wvobject>
+      <wvobject fp_name="/rca3_sim/B1" type="logic">
+         <obj_property name="ElementShortName">B1</obj_property>
+         <obj_property name="ObjectShortName">B1</obj_property>
+      </wvobject>
+      <wvobject fp_name="/rca3_sim/B0" type="logic">
+         <obj_property name="ElementShortName">B0</obj_property>
+         <obj_property name="ObjectShortName">B0</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="vbus592" type="vbus">
+      <obj_property name="label">C</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+      <obj_property name="CustomSignalColor">#FFA500</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <wvobject fp_name="/rca3_sim/C15" type="logic">
+         <obj_property name="ElementShortName">C15</obj_property>
+         <obj_property name="ObjectShortName">C15</obj_property>
+      </wvobject>
+      <wvobject fp_name="/rca3_sim/C14" type="logic">
+         <obj_property name="ElementShortName">C14</obj_property>
+         <obj_property name="ObjectShortName">C14</obj_property>
+      </wvobject>
+      <wvobject fp_name="/rca3_sim/C13" type="logic">
+         <obj_property name="ElementShortName">C13</obj_property>
+         <obj_property name="ObjectShortName">C13</obj_property>
+      </wvobject>
+      <wvobject fp_name="/rca3_sim/C12" type="logic">
+         <obj_property name="ElementShortName">C12</obj_property>
+         <obj_property name="ObjectShortName">C12</obj_property>
+      </wvobject>
+      <wvobject fp_name="/rca3_sim/C11" type="logic">
+         <obj_property name="ElementShortName">C11</obj_property>
+         <obj_property name="ObjectShortName">C11</obj_property>
+      </wvobject>
+      <wvobject fp_name="/rca3_sim/C10" type="logic">
+         <obj_property name="ElementShortName">C10</obj_property>
+         <obj_property name="ObjectShortName">C10</obj_property>
+      </wvobject>
+      <wvobject fp_name="/rca3_sim/C9" type="logic">
+         <obj_property name="ElementShortName">C9</obj_property>
+         <obj_property name="ObjectShortName">C9</obj_property>
+      </wvobject>
+      <wvobject fp_name="/rca3_sim/C8" type="logic">
+         <obj_property name="ElementShortName">C8</obj_property>
+         <obj_property name="ObjectShortName">C8</obj_property>
+      </wvobject>
+      <wvobject fp_name="/rca3_sim/C7" type="logic">
+         <obj_property name="ElementShortName">C7</obj_property>
+         <obj_property name="ObjectShortName">C7</obj_property>
+      </wvobject>
+      <wvobject fp_name="/rca3_sim/C6" type="logic">
+         <obj_property name="ElementShortName">C6</obj_property>
+         <obj_property name="ObjectShortName">C6</obj_property>
+      </wvobject>
+      <wvobject fp_name="/rca3_sim/C5" type="logic">
+         <obj_property name="ElementShortName">C5</obj_property>
+         <obj_property name="ObjectShortName">C5</obj_property>
+      </wvobject>
+      <wvobject fp_name="/rca3_sim/C4" type="logic">
+         <obj_property name="ElementShortName">C4</obj_property>
+         <obj_property name="ObjectShortName">C4</obj_property>
+      </wvobject>
+      <wvobject fp_name="/rca3_sim/C3" type="logic">
+         <obj_property name="ElementShortName">C3</obj_property>
+         <obj_property name="ObjectShortName">C3</obj_property>
+      </wvobject>
+      <wvobject fp_name="/rca3_sim/C2" type="logic">
+         <obj_property name="ElementShortName">C2</obj_property>
+         <obj_property name="ObjectShortName">C2</obj_property>
+      </wvobject>
+      <wvobject fp_name="/rca3_sim/C1" type="logic">
+         <obj_property name="ElementShortName">C1</obj_property>
+         <obj_property name="ObjectShortName">C1</obj_property>
+      </wvobject>
+      <wvobject fp_name="/rca3_sim/C0" type="logic">
+         <obj_property name="ElementShortName">C0</obj_property>
+         <obj_property name="ObjectShortName">C0</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="/rca3_sim/OVF" type="logic">
+      <obj_property name="ElementShortName">OVF</obj_property>
+      <obj_property name="ObjectShortName">OVF</obj_property>
+   </wvobject>
+</wave_config>
