@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="tel_tb_2_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="glbl" />
+            <top_module name="tel_tb_2" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="1045400000fs"></ZoomStartTime>
+      <ZoomEndTime time="1165000001fs"></ZoomEndTime>
+      <Cursor1Time time="2000000000fs"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="139"></NameColumnWidth>
+      <ValueColumnWidth column_width="115"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="9" />
+   <wvobject fp_name="/tel_tb_2/clk" type="logic">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tel_tb_2/rst" type="logic">
+      <obj_property name="ElementShortName">rst</obj_property>
+      <obj_property name="ObjectShortName">rst</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tel_tb_2/startCall" type="logic">
+      <obj_property name="ElementShortName">startCall</obj_property>
+      <obj_property name="ObjectShortName">startCall</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tel_tb_2/answerCall" type="logic">
+      <obj_property name="ElementShortName">answerCall</obj_property>
+      <obj_property name="ObjectShortName">answerCall</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tel_tb_2/endCall" type="logic">
+      <obj_property name="ElementShortName">endCall</obj_property>
+      <obj_property name="ObjectShortName">endCall</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tel_tb_2/sendChar" type="logic">
+      <obj_property name="ElementShortName">sendChar</obj_property>
+      <obj_property name="ObjectShortName">sendChar</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tel_tb_2/charSent" type="array">
+      <obj_property name="ElementShortName">charSent[7:0]</obj_property>
+      <obj_property name="ObjectShortName">charSent[7:0]</obj_property>
+      <obj_property name="Radix">ASCIIRADIX</obj_property>
+      <obj_property name="CustomSignalColor">#00FFFF</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tel_tb_2/statusMsg" type="array">
+      <obj_property name="ElementShortName">statusMsg[63:0]</obj_property>
+      <obj_property name="ObjectShortName">statusMsg[63:0]</obj_property>
+      <obj_property name="Radix">ASCIIRADIX</obj_property>
+      <obj_property name="CustomSignalColor">#FF00FF</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tel_tb_2/sentMsg" type="array">
+      <obj_property name="ElementShortName">sentMsg[63:0]</obj_property>
+      <obj_property name="ObjectShortName">sentMsg[63:0]</obj_property>
+      <obj_property name="Radix">ASCIIRADIX</obj_property>
+      <obj_property name="CustomSignalColor">#FF0000</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+</wave_config>

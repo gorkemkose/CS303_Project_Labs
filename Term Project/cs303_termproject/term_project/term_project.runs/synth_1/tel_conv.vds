@@ -1,0 +1,396 @@
+#-----------------------------------------------------------
+# Vivado v2018.2 (64-bit)
+# SW Build 2258646 on Thu Jun 14 20:03:12 MDT 2018
+# IP Build 2256618 on Thu Jun 14 22:10:49 MDT 2018
+# Start of session at: Sun Jan  2 23:56:34 2022
+# Process ID: 10640
+# Current directory: C:/Users/Lenovo/Desktop/term_project/term_project.runs/synth_1
+# Command line: vivado.exe -log tel_conv.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source tel_conv.tcl
+# Log file: C:/Users/Lenovo/Desktop/term_project/term_project.runs/synth_1/tel_conv.vds
+# Journal file: C:/Users/Lenovo/Desktop/term_project/term_project.runs/synth_1\vivado.jou
+#-----------------------------------------------------------
+source tel_conv.tcl -notrace
+Command: synth_design -top tel_conv -part xc7a100tcsg324-1
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7a100t'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7a100t'
+INFO: Launching helper process for spawning children vivado processes
+INFO: Helper process launched with PID 10796 
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:03 ; elapsed = 00:00:03 . Memory (MB): peak = 336.582 ; gain = 100.215
+---------------------------------------------------------------------------------
+INFO: [Synth 8-6157] synthesizing module 'tel_conv' [C:/Users/Lenovo/Desktop/term_project/term_project.srcs/sources_1/new/tel_conv.v:23]
+	Parameter IDLE bound to: 0 - type: integer 
+	Parameter RINGING bound to: 1 - type: integer 
+	Parameter REJECTED bound to: 2 - type: integer 
+	Parameter BUSY bound to: 3 - type: integer 
+	Parameter CALL bound to: 4 - type: integer 
+	Parameter COST bound to: 5 - type: integer 
+INFO: [Synth 8-155] case statement is not full and has no default [C:/Users/Lenovo/Desktop/term_project/term_project.srcs/sources_1/new/tel_conv.v:63]
+INFO: [Synth 8-155] case statement is not full and has no default [C:/Users/Lenovo/Desktop/term_project/term_project.srcs/sources_1/new/tel_conv.v:125]
+INFO: [Synth 8-155] case statement is not full and has no default [C:/Users/Lenovo/Desktop/term_project/term_project.srcs/sources_1/new/tel_conv.v:187]
+INFO: [Synth 8-6155] done synthesizing module 'tel_conv' (1#1) [C:/Users/Lenovo/Desktop/term_project/term_project.srcs/sources_1/new/tel_conv.v:23]
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:04 ; elapsed = 00:00:04 . Memory (MB): peak = 390.820 ; gain = 154.453
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:04 ; elapsed = 00:00:05 . Memory (MB): peak = 390.820 ; gain = 154.453
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:04 ; elapsed = 00:00:05 . Memory (MB): peak = 390.820 ; gain = 154.453
+---------------------------------------------------------------------------------
+INFO: [Device 21-403] Loading part xc7a100tcsg324-1
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [C:/Users/Lenovo/Desktop/term_project/term_project.srcs/constrs_1/new/cons.xdc]
+Finished Parsing XDC File [C:/Users/Lenovo/Desktop/term_project/term_project.srcs/constrs_1/new/cons.xdc]
+Completed Processing XDC Constraints
+
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+WARNING: [Constraints 18-5210] No constraint will be written out.
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.082 . Memory (MB): peak = 726.391 ; gain = 1.281
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:15 ; elapsed = 00:00:18 . Memory (MB): peak = 726.391 ; gain = 490.023
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7a100tcsg324-1
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:15 ; elapsed = 00:00:18 . Memory (MB): peak = 726.391 ; gain = 490.023
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying 'set_property' XDC Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:15 ; elapsed = 00:00:18 . Memory (MB): peak = 726.391 ; gain = 490.023
+---------------------------------------------------------------------------------
+INFO: [Synth 8-802] inferred FSM for state register 'currentState_reg' in module 'tel_conv'
+INFO: [Synth 8-5544] ROM "nextState" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
+INFO: [Synth 8-5546] ROM "cost" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5544] ROM "statusMsg" won't be mapped to Block RAM because address size (3) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "costCounter" won't be mapped to Block RAM because address size (3) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "rejectedCounter" won't be mapped to Block RAM because address size (3) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "busyCounter" won't be mapped to Block RAM because address size (3) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "ringingCounter" won't be mapped to Block RAM because address size (3) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "nextState" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "nextState" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "nextState" won't be mapped to Block RAM because address size (3) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "nextState" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "nextState" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+WARNING: [Synth 8-327] inferring latch for variable 'FSM_sequential_nextState_reg' [C:/Users/Lenovo/Desktop/term_project/term_project.srcs/sources_1/new/tel_conv.v:129]
+WARNING: [Synth 8-327] inferring latch for variable 'FSM_onehot_nextState_reg' [C:/Users/Lenovo/Desktop/term_project/term_project.srcs/sources_1/new/tel_conv.v:129]
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+                    IDLE |                           000001 |                              000
+                 RINGING |                           000010 |                              001
+                REJECTED |                           000100 |                              010
+                    CALL |                           001000 |                              100
+                    COST |                           010000 |                              101
+                    BUSY |                           100000 |                              011
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3354] encoded FSM with state register 'currentState_reg' using encoding 'one-hot' in module 'tel_conv'
+WARNING: [Synth 8-327] inferring latch for variable 'FSM_onehot_nextState_reg' [C:/Users/Lenovo/Desktop/term_project/term_project.srcs/sources_1/new/tel_conv.v:129]
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:16 ; elapsed = 00:00:19 . Memory (MB): peak = 726.391 ; gain = 490.023
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     32 Bit       Adders := 2     
+	   2 Input      7 Bit       Adders := 8     
+	   2 Input      4 Bit       Adders := 3     
+	   2 Input      3 Bit       Adders := 1     
++---Registers : 
+	               64 Bit    Registers := 2     
+	               32 Bit    Registers := 1     
+	                4 Bit    Registers := 3     
+	                3 Bit    Registers := 1     
++---Muxes : 
+	   2 Input     64 Bit        Muxes := 1     
+	   6 Input     64 Bit        Muxes := 2     
+	   2 Input     32 Bit        Muxes := 2     
+	   6 Input     32 Bit        Muxes := 1     
+	   2 Input      7 Bit        Muxes := 8     
+	   6 Input      6 Bit        Muxes := 1     
+	   2 Input      6 Bit        Muxes := 8     
+	   2 Input      4 Bit        Muxes := 3     
+	   6 Input      4 Bit        Muxes := 3     
+	   2 Input      3 Bit        Muxes := 1     
+	   6 Input      3 Bit        Muxes := 2     
+	   3 Input      1 Bit        Muxes := 1     
+	   4 Input      1 Bit        Muxes := 1     
+	   6 Input      1 Bit        Muxes := 9     
+	   2 Input      1 Bit        Muxes := 2     
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Hierarchical Component Statistics 
+---------------------------------------------------------------------------------
+Hierarchical RTL Component report 
+Module tel_conv 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     32 Bit       Adders := 2     
+	   2 Input      7 Bit       Adders := 8     
+	   2 Input      4 Bit       Adders := 3     
+	   2 Input      3 Bit       Adders := 1     
++---Registers : 
+	               64 Bit    Registers := 2     
+	               32 Bit    Registers := 1     
+	                4 Bit    Registers := 3     
+	                3 Bit    Registers := 1     
++---Muxes : 
+	   2 Input     64 Bit        Muxes := 1     
+	   6 Input     64 Bit        Muxes := 2     
+	   2 Input     32 Bit        Muxes := 2     
+	   6 Input     32 Bit        Muxes := 1     
+	   2 Input      7 Bit        Muxes := 8     
+	   6 Input      6 Bit        Muxes := 1     
+	   2 Input      6 Bit        Muxes := 8     
+	   2 Input      4 Bit        Muxes := 3     
+	   6 Input      4 Bit        Muxes := 3     
+	   2 Input      3 Bit        Muxes := 1     
+	   6 Input      3 Bit        Muxes := 2     
+	   3 Input      1 Bit        Muxes := 1     
+	   4 Input      1 Bit        Muxes := 1     
+	   6 Input      1 Bit        Muxes := 9     
+	   2 Input      1 Bit        Muxes := 2     
+---------------------------------------------------------------------------------
+Finished RTL Hierarchical Component Statistics
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 240 (col length:80)
+BRAMs: 270 (col length: RAMB18 80 RAMB36 40)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+Warning: Parallel synthesis criteria is not met 
+INFO: [Synth 8-3886] merging instance 'statusMsg_reg[0]' (FDCE) to 'statusMsg_reg[63]'
+INFO: [Synth 8-3886] merging instance 'statusMsg_reg[1]' (FDCE) to 'statusMsg_reg[63]'
+INFO: [Synth 8-3886] merging instance 'statusMsg_reg[2]' (FDCE) to 'statusMsg_reg[25]'
+INFO: [Synth 8-3886] merging instance 'statusMsg_reg[3]' (FDCE) to 'statusMsg_reg[63]'
+INFO: [Synth 8-3886] merging instance 'statusMsg_reg[4]' (FDCE) to 'statusMsg_reg[63]'
+INFO: [Synth 8-3886] merging instance 'statusMsg_reg[6]' (FDCE) to 'statusMsg_reg[25]'
+INFO: [Synth 8-3886] merging instance 'statusMsg_reg[7]' (FDCE) to 'statusMsg_reg[63]'
+INFO: [Synth 8-3886] merging instance 'statusMsg_reg[8]' (FDCE) to 'statusMsg_reg[60]'
+INFO: [Synth 8-3886] merging instance 'statusMsg_reg[9]' (FDCE) to 'statusMsg_reg[33]'
+INFO: [Synth 8-3886] merging instance 'statusMsg_reg[10]' (FDCE) to 'statusMsg_reg[60]'
+INFO: [Synth 8-3886] merging instance 'statusMsg_reg[11]' (FDCE) to 'statusMsg_reg[63]'
+INFO: [Synth 8-3886] merging instance 'statusMsg_reg[12]' (FDCE) to 'statusMsg_reg[63]'
+INFO: [Synth 8-3886] merging instance 'statusMsg_reg[14]' (FDCE) to 'statusMsg_reg[60]'
+INFO: [Synth 8-3886] merging instance 'statusMsg_reg[15]' (FDCE) to 'statusMsg_reg[63]'
+INFO: [Synth 8-3886] merging instance 'statusMsg_reg[16]' (FDCE) to 'statusMsg_reg[63]'
+INFO: [Synth 8-3886] merging instance 'statusMsg_reg[18]' (FDCE) to 'statusMsg_reg[60]'
+INFO: [Synth 8-3886] merging instance 'statusMsg_reg[19]' (FDCE) to 'statusMsg_reg[33]'
+INFO: [Synth 8-3886] merging instance 'statusMsg_reg[21]' (FDPE) to 'statusMsg_reg[29]'
+INFO: [Synth 8-3886] merging instance 'statusMsg_reg[22]' (FDCE) to 'statusMsg_reg[30]'
+INFO: [Synth 8-3886] merging instance 'statusMsg_reg[23]' (FDCE) to 'statusMsg_reg[63]'
+INFO: [Synth 8-3886] merging instance 'statusMsg_reg[24]' (FDCE) to 'statusMsg_reg[30]'
+INFO: [Synth 8-3886] merging instance 'statusMsg_reg[27]' (FDCE) to 'statusMsg_reg[33]'
+INFO: [Synth 8-3886] merging instance 'statusMsg_reg[28]' (FDCE) to 'statusMsg_reg[63]'
+INFO: [Synth 8-3886] merging instance 'statusMsg_reg[31]' (FDCE) to 'statusMsg_reg[63]'
+INFO: [Synth 8-3886] merging instance 'statusMsg_reg[36]' (FDCE) to 'statusMsg_reg[44]'
+INFO: [Synth 8-3886] merging instance 'statusMsg_reg[37]' (FDPE) to 'statusMsg_reg[61]'
+INFO: [Synth 8-3886] merging instance 'statusMsg_reg[38]' (FDCE) to 'statusMsg_reg[62]'
+INFO: [Synth 8-3886] merging instance 'statusMsg_reg[39]' (FDCE) to 'statusMsg_reg[63]'
+INFO: [Synth 8-3886] merging instance 'statusMsg_reg[40]' (FDCE) to 'statusMsg_reg[44]'
+INFO: [Synth 8-3886] merging instance 'statusMsg_reg[45]' (FDPE) to 'statusMsg_reg[61]'
+INFO: [Synth 8-3886] merging instance 'statusMsg_reg[46]' (FDCE) to 'statusMsg_reg[62]'
+INFO: [Synth 8-3886] merging instance 'statusMsg_reg[47]' (FDCE) to 'statusMsg_reg[63]'
+INFO: [Synth 8-3886] merging instance 'statusMsg_reg[48]' (FDCE) to 'statusMsg_reg[57]'
+INFO: [Synth 8-3886] merging instance 'statusMsg_reg[53]' (FDPE) to 'statusMsg_reg[61]'
+INFO: [Synth 8-3886] merging instance 'statusMsg_reg[54]' (FDCE) to 'statusMsg_reg[62]'
+INFO: [Synth 8-3886] merging instance 'statusMsg_reg[55]' (FDCE) to 'statusMsg_reg[63]'
+INFO: [Synth 8-3886] merging instance 'statusMsg_reg[58]' (FDCE) to 'statusMsg_reg[63]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\statusMsg_reg[63] )
+WARNING: [Synth 8-3332] Sequential element (statusMsg_reg[63]) is unused and will be removed from module tel_conv.
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:18 ; elapsed = 00:00:22 . Memory (MB): peak = 726.391 ; gain = 490.023
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Applying XDC Timing Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:31 ; elapsed = 00:00:36 . Memory (MB): peak = 728.301 ; gain = 491.934
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:31 ; elapsed = 00:00:36 . Memory (MB): peak = 728.602 ; gain = 492.234
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:31 ; elapsed = 00:00:37 . Memory (MB): peak = 749.820 ; gain = 513.453
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:33 ; elapsed = 00:00:38 . Memory (MB): peak = 749.820 ; gain = 513.453
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:33 ; elapsed = 00:00:38 . Memory (MB): peak = 749.820 ; gain = 513.453
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:33 ; elapsed = 00:00:38 . Memory (MB): peak = 749.820 ; gain = 513.453
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:33 ; elapsed = 00:00:38 . Memory (MB): peak = 749.820 ; gain = 513.453
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:33 ; elapsed = 00:00:38 . Memory (MB): peak = 749.820 ; gain = 513.453
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:33 ; elapsed = 00:00:38 . Memory (MB): peak = 749.820 ; gain = 513.453
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++-+--------------+----------+
+| |BlackBox name |Instances |
++-+--------------+----------+
++-+--------------+----------+
+
+Report Cell Usage: 
++------+-------+------+
+|      |Cell   |Count |
++------+-------+------+
+|1     |BUFG   |     1|
+|2     |CARRY4 |    16|
+|3     |LUT1   |     1|
+|4     |LUT2   |    33|
+|5     |LUT3   |    22|
+|6     |LUT4   |    46|
+|7     |LUT5   |    49|
+|8     |LUT6   |    36|
+|9     |FDCE   |   130|
+|10    |FDPE   |    13|
+|11    |LD     |     6|
+|12    |IBUF   |    14|
+|13    |OBUF   |   128|
++------+-------+------+
+
+Report Instance Areas: 
++------+---------+-------+------+
+|      |Instance |Module |Cells |
++------+---------+-------+------+
+|1     |top      |       |   495|
++------+---------+-------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:33 ; elapsed = 00:00:38 . Memory (MB): peak = 749.820 ; gain = 513.453
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 4 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:22 ; elapsed = 00:00:29 . Memory (MB): peak = 749.820 ; gain = 177.883
+Synthesis Optimization Complete : Time (s): cpu = 00:00:33 ; elapsed = 00:00:39 . Memory (MB): peak = 749.820 ; gain = 513.453
+INFO: [Project 1-571] Translating synthesized netlist
+INFO: [Netlist 29-17] Analyzing 36 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 6 instances were transformed.
+  LD => LDCE: 6 instances
+
+INFO: [Common 17-83] Releasing license: Synthesis
+68 Infos, 5 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:35 ; elapsed = 00:00:42 . Memory (MB): peak = 752.336 ; gain = 529.070
+WARNING: [Constraints 18-5210] No constraint will be written out.
+INFO: [Common 17-1381] The checkpoint 'C:/Users/Lenovo/Desktop/term_project/term_project.runs/synth_1/tel_conv.dcp' has been generated.
+INFO: [runtcl-4] Executing : report_utilization -file tel_conv_utilization_synth.rpt -pb tel_conv_utilization_synth.pb
+report_utilization: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.123 . Memory (MB): peak = 752.336 ; gain = 0.000
+INFO: [Common 17-206] Exiting Vivado at Sun Jan  2 23:57:25 2022...
